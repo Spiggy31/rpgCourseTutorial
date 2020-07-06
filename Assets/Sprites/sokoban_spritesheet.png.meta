@@ -1,0 +1,473 @@
+fileFormatVersion: 2
+guid: ae135cd7bccc1bf43bd11eb67251b27a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2154720983746436306
+    second: sokoban_spritesheet_0
+  - first:
+      213: 132201476283463254
+    second: sokoban_spritesheet_1
+  - first:
+      213: 8450905250360956143
+    second: sokoban_spritesheet_2
+  - first:
+      213: 3208027462701797463
+    second: sokoban_spritesheet_3
+  - first:
+      213: -6979919878118274778
+    second: sokoban_spritesheet_4
+  - first:
+      213: -2856569177391182494
+    second: sokoban_spritesheet_5
+  - first:
+      213: -8264642079013170566
+    second: sokoban_spritesheet_6
+  - first:
+      213: -6382544564707252456
+    second: sokoban_spritesheet_7
+  - first:
+      213: 8753097236774890733
+    second: sokoban_spritesheet_8
+  - first:
+      213: -7905251794502694718
+    second: sokoban_spritesheet_9
+  - first:
+      213: -4622395830686504596
+    second: sokoban_spritesheet_10
+  - first:
+      213: -7460908831268165864
+    second: sokoban_spritesheet_11
+  - first:
+      213: 7017597493371820703
+    second: sokoban_spritesheet_12
+  - first:
+      213: -5594720406415466642
+    second: sokoban_spritesheet_13
+  - first:
+      213: 5957265324786517173
+    second: sokoban_spritesheet_14
+  - first:
+      213: 262299128659616929
+    second: sokoban_spritesheet_15
+  - first:
+      213: -2296252490384673953
+    second: sokoban_spritesheet_16
+  - first:
+      213: 1594548570816167368
+    second: sokoban_spritesheet_17
+  - first:
+      213: 3587194717187163796
+    second: sokoban_spritesheet_18
+  - first:
+      213: -4271950932053780524
+    second: sokoban_spritesheet_19
+  - first:
+      213: -905624776433765815
+    second: sokoban_spritesheet_20
+  - first:
+      213: -1746188292532460183
+    second: sokoban_spritesheet_21
+  - first:
+      213: 6362372327227277196
+    second: sokoban_spritesheet_22
+  - first:
+      213: 7247385650377029036
+    second: sokoban_spritesheet_23
+  - first:
+      213: 4406155034012894538
+    second: sokoban_spritesheet_24
+  - first:
+      213: -5764836366537418320
+    second: sokoban_spritesheet_25
+  - first:
+      213: 8433430755676546186
+    second: sokoban_spritesheet_26
+  - first:
+      213: -7028102599574288750
+    second: sokoban_spritesheet_27
+  - first:
+      213: -946848294344286140
+    second: sokoban_spritesheet_28
+  - first:
+      213: -1597049330715192378
+    second: sokoban_spritesheet_29
+  - first:
+      213: 9223107053755114012
+    second: sokoban_spritesheet_30
+  - first:
+      213: -5551787070197284812
+    second: sokoban_spritesheet_31
+  - first:
+      213: -1434422512390609070
+    second: sokoban_spritesheet_32
+  - first:
+      213: -4674679326132891265
+    second: sokoban_spritesheet_33
+  - first:
+      213: -4390898038459659786
+    second: sokoban_spritesheet_34
+  - first:
+      213: -6365958214687642547
+    second: sokoban_spritesheet_35
+  - first:
+      213: -4760512421764888078
+    second: sokoban_spritesheet_36
+  - first:
+      213: -4927326438737314809
+    second: sokoban_spritesheet_37
+  - first:
+      213: 8744473286049649160
+    second: sokoban_spritesheet_38
+  - first:
+      213: -7819382677617404882
+    second: sokoban_spritesheet_39
+  - first:
+      213: -7838787093937756293
+    second: sokoban_spritesheet_40
+  - first:
+      213: -3788089018915049948
+    second: sokoban_spritesheet_41
+  - first:
+      213: 5688602255611726731
+    second: sokoban_spritesheet_42
+  - first:
+      213: 2527027173377941677
+    second: sokoban_spritesheet_43
+  - first:
+      213: -1466901721115254114
+    second: sokoban_spritesheet_44
+  - first:
+      213: -3655685085136516288
+    second: sokoban_spritesheet_45
+  - first:
+      213: -1187964089365734116
+    second: sokoban_spritesheet_46
+  - first:
+      213: -2865541648201436404
+    second: sokoban_spritesheet_47
+  - first:
+      213: 5668904542932808756
+    second: sokoban_spritesheet_48
+  - first:
+      213: 408196715314586899
+    second: sokoban_spritesheet_49
+  - first:
+      213: 6724311662802345946
+    second: sokoban_spritesheet_50
+  - first:
+      213: -4596776674820406831
+    second: sokoban_spritesheet_51
+  - first:
+      213: -2195248173655448620
+    second: sokoban_spritesheet_52
+  - first:
+      213: -9065088950959962986
+    second: sokoban_spritesheet_53
+  - first:
+      213: 1667993259681827644
+    second: sokoban_spritesheet_54
+  - first:
+      213: 7306303224443160507
+    second: sokoban_spritesheet_55
+  - first:
+      213: 4205219508512384079
+    second: sokoban_spritesheet_56
+  - first:
+      213: 656437823785105966
+    second: sokoban_spritesheet_57
+  - first:
+      213: -8080545669732245990
+    second: sokoban_spritesheet_58
+  - first:
+      213: -7992118436027552220
+    second: sokoban_spritesheet_59
+  - first:
+      213: 4001485840795498865
+    second: sokoban_spritesheet_60
+  - first:
+      213: 2654665470447778349
+    second: sokoban_spritesheet_61
+  - first:
+      213: -8734603789888162279
+    second: sokoban_spritesheet_62
+  - first:
+      213: -6637461332386176233
+    second: sokoban_spritesheet_63
+  - first:
+      213: 2356812633131213360
+    second: sokoban_spritesheet_64
+  - first:
+      213: 5968622274282558452
+    second: sokoban_spritesheet_65
+  - first:
+      213: -5518871658902916043
+    second: sokoban_spritesheet_66
+  - first:
+      213: 6089165618959817591
+    second: sokoban_spritesheet_67
+  - first:
+      213: -2629512081139810425
+    second: sokoban_spritesheet_68
+  - first:
+      213: 2087164265161655785
+    second: sokoban_spritesheet_69
+  - first:
+      213: 6817070401560961845
+    second: sokoban_spritesheet_70
+  - first:
+      213: 5152501093880224751
+    second: sokoban_spritesheet_71
+  - first:
+      213: -6512684008488098555
+    second: sokoban_spritesheet_72
+  - first:
+      213: 3296522380532381212
+    second: sokoban_spritesheet_73
+  - first:
+      213: -508965139931877047
+    second: sokoban_spritesheet_74
+  - first:
+      213: 1057121398133356540
+    second: sokoban_spritesheet_75
+  - first:
+      213: -9200744564826910331
+    second: sokoban_spritesheet_76
+  - first:
+      213: -1833453929490153498
+    second: sokoban_spritesheet_77
+  - first:
+      213: -186739009186004610
+    second: sokoban_spritesheet_78
+  - first:
+      213: 1911697958695678799
+    second: sokoban_spritesheet_79
+  - first:
+      213: -6077824858678403323
+    second: sokoban_spritesheet_80
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sokoban_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 340
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc594a815b17ed10800000000000000
+      internalID: 2154720983746436306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sokoban_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 390
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65678a0da8ca5d100800000000000000
+      internalID: 132201476283463254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sokoban_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 440
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe49f36ec85a74570800000000000000
+      internalID: 8450905250360956143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sokoban_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 108
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750d9000bf3358c20800000000000000
+      internalID: 3208027462701797463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sokoban_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62982102ad7522f90800000000000000
+      internalID: -6979919878118274778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sokoban_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dc449c77d6b58d0800000000000000
+      internalID: -2856569177391182494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
