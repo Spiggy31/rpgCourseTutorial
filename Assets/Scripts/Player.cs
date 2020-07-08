@@ -7,8 +7,17 @@ public class Player : MonoBehaviour
 {
     [Header("Stats")]
     public float moveSpeed; // how fast we move
+    public int currentHP;
+    public int maxHP;
+    public int damage;
 
     private Vector2 facingDirection; // direction we're facing
+
+    [Header("Combat")]
+    public KeyCode attackKey;
+    public float attackRange;
+    public float attackRate;
+    private float lastAttackTime;
 
     [Header("Sprites")]
     public Sprite downSprite;
@@ -30,6 +39,12 @@ public class Player : MonoBehaviour
     private void Update()
     {
         Move();
+
+        if (Input.GetKeyDown(attackKey))
+        {
+            if (Time.time - lastAttackTime >= attackRate)
+                Attack();
+        }
     }
 
     private void Move()
@@ -41,9 +56,7 @@ public class Player : MonoBehaviour
         Vector2 velocity = new Vector2(x, y);
 
         if (velocity.magnitude != 0)
-        {
             facingDirection = velocity;
-        }
 
         UpdateSpriteDirection();
 
@@ -60,5 +73,17 @@ public class Player : MonoBehaviour
             spriteRenderer.sprite = leftSprite;
         else if (facingDirection == Vector2.right)
             spriteRenderer.sprite = rightSprite;
+    }
+
+    private void Attack()
+    {
+        lastAttackTime = Time.time;
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, facingDirection, attackRange, 1 << 8);
+
+        if (hit.collider != null)
+        {
+            hit.collider.GetComponent<Enemy>().TakeDamage(damage);
+        }
     }
 }

@@ -154,6 +154,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  currentHP: 10
+  maxHP: 10
+  damage: 1
+  attackKey: 32
+  attackRange: 1
+  attackRate: 0.2
   downSprite: {fileID: 2154720983746436306, guid: ae135cd7bccc1bf43bd11eb67251b27a,
     type: 3}
   upSprite: {fileID: 132201476283463254, guid: ae135cd7bccc1bf43bd11eb67251b27a, type: 3}
@@ -236,7 +242,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2154720983746436306, guid: ae135cd7bccc1bf43bd11eb67251b27a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3989,7 +3995,7 @@ GameObject:
   - component: {fileID: 1584490793}
   - component: {fileID: 1584490792}
   - component: {fileID: 1584490791}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4008,6 +4014,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c671ae6973f718347ae8bcab4c4c6426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentHp: 1
+  maxHP: 1
   moveSpeed: 1
   chaseRange: 5
   attackRange: 1.5
@@ -4086,7 +4094,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2154720983746436306, guid: ae135cd7bccc1bf43bd11eb67251b27a,
     type: 3}
   m_Color: {r: 1, g: 0.5990566, b: 0.5990566, a: 1}

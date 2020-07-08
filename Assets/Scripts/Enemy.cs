@@ -5,7 +5,11 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [Header("Stats")]
+    public int currentHp;
+    public int maxHP;
     public float moveSpeed;
+
+
 
     [Header("Target")]
     public float chaseRange;
@@ -51,5 +55,18 @@ public class Enemy : MonoBehaviour
         Vector2 direction = (player.transform.position - transform.position).normalized;
 
         rig.velocity = direction * moveSpeed;
+    }
+
+    public void TakeDamage(int damageTaken)
+    {
+        currentHp -= damageTaken;
+
+        if (currentHp <= 0)
+            Die();
+    }
+
+    private void Die()
+    {
+        Destroy(gameObject);
     }
 }
