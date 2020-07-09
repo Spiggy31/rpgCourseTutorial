@@ -4014,11 +4014,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c671ae6973f718347ae8bcab4c4c6426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHp: 1
-  maxHP: 1
+  currentHp: 5
+  maxHP: 5
   moveSpeed: 1
   chaseRange: 5
   attackRange: 1.5
+  damage: 1
+  attackRate: 0.2
 --- !u!70 &1584490792
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

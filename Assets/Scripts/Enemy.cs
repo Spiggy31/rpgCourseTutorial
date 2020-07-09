@@ -9,12 +9,15 @@ public class Enemy : MonoBehaviour
     public int maxHP;
     public float moveSpeed;
 
-
-
     [Header("Target")]
     public float chaseRange;
     public float attackRange;
     private Player player;
+
+    [Header("Attack")]
+    public int damage;
+    public float attackRate;
+    private float lastAttackTime;
 
     // components
     private Rigidbody2D rig;
@@ -34,6 +37,8 @@ public class Enemy : MonoBehaviour
         if (playerDist <= attackRange)
         {
             // attack the player
+            if(Time.time - lastAttackTime >= attackRate)
+                Attack();
 
             rig.velocity = Vector2.zero;
         }
@@ -57,6 +62,16 @@ public class Enemy : MonoBehaviour
         rig.velocity = direction * moveSpeed;
     }
 
+
+    // attacks Player
+    private void Attack()
+    {
+        lastAttackTime = Time.time;
+
+        player.TakeDamage(damage);
+    }
+
+    // calculates damage
     public void TakeDamage(int damageTaken)
     {
         currentHp -= damageTaken;
@@ -65,6 +80,7 @@ public class Enemy : MonoBehaviour
             Die();
     }
 
+    // called when enemy dies
     private void Die()
     {
         Destroy(gameObject);

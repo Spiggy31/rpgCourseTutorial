@@ -86,4 +86,17 @@ public class Player : MonoBehaviour
             hit.collider.GetComponent<Enemy>().TakeDamage(damage);
         }
     }
+
+    public void TakeDamage(int damageTaken)
+    {
+        currentHP-= damageTaken;
+
+        if (currentHP <= 0)
+            Die();
+    }
+
+    private void Die()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
+    }
 }
